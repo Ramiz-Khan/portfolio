@@ -1,0 +1,261 @@
+
+/* ================================================================
+    Author       : miniboss
+    Template Name: Koby - Personal Portfolio HTML Template
+    Tags: One Page portfolio, Creative Template,  professional, landing, HTML 
+    Version      : 1.0
+=================================================================*/
+/*===================================================
+                Responsive Css
+=====================================================*/
+@media only screen and (min-width:992px) and (max-width:1200px){
+
+}
+/*===========================================
+	Tab responsive
+=============================================*/
+@media only screen and (min-width: 768px) and (max-width: 991px){
+	#main-menu ul li a {
+		font-size: 13px;
+		padding: 37px 12px;
+	}
+	.site-header.sticky #main-menu ul li a {
+		font-size: 13px;
+		padding: 34px 8px;
+	}
+	.single-service{
+		margin-bottom: 22px;
+	}
+	.single-home-blog {
+		margin-bottom: 29px;
+	}
+	.member-wrapper {
+		margin-top: 30px;
+	}
+/*
+	blog page
+*/
+	.blog-right-sidebar {
+		margin-top: 59px;
+	}
+
+}
+
+/*=========================================
+    SMart Phone Device
+===========================================*/
+@media only screen and (min-width: 300px) and (max-width: 767px){
+	h2 {
+		font-size: 14px;
+		letter-spacing: 1px;
+	}
+	.section-title p {
+		line-height: 21px;
+		font-size: 12px;
+	}
+	#main-menu ul li a {
+		color: #fff;
+		font-size: 14px;
+		font-weight: 400;
+		letter-spacing: 2px;
+		padding: 20px 20px;
+		text-transform: capitalize;
+		display: inline-block;
+	}
+	.site-header {
+		background: transparent;
+		position: fixed;
+		z-index: 111111;
+		width: 100%;
+	}
+	#main-menu ul li a {
+		color: #fff;
+		font-size: 14px;
+		font-weight: 400;
+		letter-spacing: 2px;
+		padding: 20px 20px;
+		text-transform: capitalize;
+		display: inline-block;
+	}
+	.site-header.sticky #main-menu ul li a {
+		color: #fff;
+		font-size: 14px;
+		font-weight: 400;
+		letter-spacing: 2px;
+		padding: 20px 20px;
+		text-transform: capitalize;
+	}
+	.navbar-right {
+		float: left;
+		margin-left: 0px;
+		margin-right: 0px;
+		width: 100%;
+	}
+	#main-menu {
+		overflow: hidden;
+		background: #434334;
+	}
+	.section-title h2 {
+		font-size: 14px;
+		line-height: 22px;
+	}
+	.mid-content p {
+		color: #fff;
+		font-size: 14px;
+		text-transform: capitalize;
+		letter-spacing: 2px;
+		line-height: 24px;
+		margin-bottom: 0px;
+	}
+	.mid-content h2 {
+		color: #fff;
+		font-weight: 800;
+		text-transform: capitalize;
+		font-size: 23px;
+		line-height: 38px;
+		margin-bottom: 0px;
+	}
+	 p{
+		font-size: 13px;
+	}
+	.work-filter li {
+		cursor: pointer;
+		display: inline-block;
+		margin-left: 12px;
+		text-transform: uppercase;
+		font-size: 11px;
+	}	
+	.service-wrapper .owl-dots{
+		display: none;
+	}
+	.service-icon {
+		height: 42px;
+		width: 42px;
+	}
+	.service-icon i {
+		line-height: 30px;
+		font-size: 32px;
+	}
+	.member-wrapper {
+		margin-top: 30px;
+	}
+	.single-service {
+		margin-top: 16px;
+	}
+	.member-details h4 {
+		font-size: 12px;
+	}
+	.member-details ul li {
+		margin-right: 4px;
+		margin-top: 3px;
+	}
+	.client-details > p {
+		font-size: 13px;
+		padding: 10px 0px;
+	}
+	.home-blog-details h2 a {
+		font-size: 12px;
+		line-height: 25px;
+	}
+	.single-home-blog {
+		margin-bottom: 30px;
+	}
+/*
+	blog page
+*/
+	.blog-post-area h3 a {
+		font-size: 15px;
+		line-height: 27px;
+	}
+	.blog-page-meta span {
+		font-size: 12px;
+	}
+	.blog-right-sidebar {
+		margin-top: 59px;
+	}
+	.single-part h3 {
+		font-size: 16px;
+	}
+	.single-part ul li a {
+		font-size: 13px;
+	}
+/*
+	blog single page
+*/
+	.single-blog-post-area h3 {
+		font-size: 16px;
+	}
+	.tags-area ul li a {
+		font-size: 13px;
+		line-height: 22px;
+	}
+	.commennts-details{
+		display: inline-block;
+	}
+	.author-body-content p {
+		font-size: 12px;
+	}
+	#comment-reply .author-body-content p {
+		font-size: 12px;
+	}
+	.breadcrumb li.active {
+		font-size: 12px;
+	}
+	.breadcrumb>li a {
+		font-size: 13px;
+	}
+
+}
+
+@media only screen and (min-width:480px) and (max-width: 767px){
+	.site-header {
+		background: transparent;
+		position: fixed;
+		z-index: 111111;
+		width: 100%;
+	}
+	.section-title h2 {
+		position: relative;
+		font-size: 17px;
+		line-height: 23px;
+	}
+	.mid-content p {
+		color: #fff;
+		font-size: 20px;
+		text-transform: capitalize;
+		letter-spacing: 2px;
+		line-height: 30px;
+		margin-bottom: 0px;
+	}
+	.mid-content h2 {
+		color: #fff;
+		font-weight: 800;
+		text-transform: capitalize;
+		font-size: 42px;
+		line-height: 54px;
+		margin-bottom: 0px;
+	}
+	p{
+		font-size: 14px;
+	}
+	.work-filter li {
+		cursor: pointer;
+		display: inline-block;
+		margin-left: 14px;
+		text-transform: uppercase;
+		font-size: 14px;
+	}
+	.service-wrapper .owl-dots{
+		display: block;
+	}
+/*
+	blog page
+*/
+	.blog-post-area h3 a {
+		font-size: 17px;
+		line-height: 27px;
+	}
+	.blog-page-meta span {
+		font-size: 13px;
+	}
+}
